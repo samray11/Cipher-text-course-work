@@ -1,0 +1,13 @@
+LOGICAL|DEPOSIT|LIKE|A|VEIN|OF
+
+For this cipher I used a mixture of a programmatical and non-programmatical solution.
+I wrote a program to do assit in this by having it put each character in a hashmap
+that also included the number of times it occurs. I was given the following output
+{A=13, B=14, C=1, D=54, F=52, G=9, H=41, I=146, J=31, K=11, L=47, M=16, N=95, O=43, P=6, Q=30, S=20, T=1, U=10, V=61, W=14, X=28, Y=24, Z=67, |=6}
+This set made it clear what some characters were likely to be. For example, I was likely to be a SPACE, as it occured so
+many times. N, being the second most common was likely to be E as the most commonly used letter in the alphabet. I refferred to an alphabet
+frequency table to assit in determining characters based on their frequency. To test them, I used String.replace(); to replace a handful of characters
+based on their frequency, which allowed me to work out letters of short words such as THE, WHO, A, IT, TO, etc. From there, words began to become legible
+or at the very least guessible. From there, I used a selection of if statments to go through the string and replace the characters, I added more and more if statments
+until every character was correct.The program goes through each character of the string, if it is x, replace it with y. if(ciph.charAt(i) == 'N'){plain += "E";}
+Please find attach ciph7.java
