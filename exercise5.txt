@@ -1,8 +1,0 @@
-HEWINDOWINTHEFORMOFASPIRITLESS
-
-I wrote a program to solve this.
-The program essentially rearranges the ciphertext into rows and columns in an order where
-index 0 is is the first row/colum, index 1 is the second row and first column,
-index 2 is the third row on the first column.It will go to the next column when the column length
-is full, which is the cipherlength divides by the key (which by trial and error I determined)to be 5.
-Please find attached the code cipher5.java

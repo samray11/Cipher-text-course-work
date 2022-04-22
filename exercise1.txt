@@ -1,7 +1,0 @@
-SONSDAUGHTERINLAWBRINGHERSELFT
-
-I made a program that goes through the cipher text and performs modular arithmetic to shift
-the letters of the alphabet by a given number (the key). I do this for each possible key
- 0-26 and check each output to see if it is legible english, I found that key 6 was 
-the one that produced plain text.
-To view the code please look for cipher.java
